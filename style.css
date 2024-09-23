@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+.portfolio {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid #5feaf6;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.header {
+    color: white;
+    display: flex;
+}
+.contact-info {
+    background-color: #4AB7C4;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+    height: 150px;
+}
+
+.profile-pic{
+    display: block;
+    width: 120px;
+    height: 100px;
+    border: 3px solid white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-pic {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 200px;
+    height: 150px;
+}
+.name-title {
+    flex: 2;
+    color: black;
+    text-align: end;
+    margin-right: 10px;
+}
+.content {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.section-title {
+    color: #00a0b0;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.skill-bar {
+    background-color: #e0e0e0;
+    height: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.skill-level {
+    background-color: #00a0b0;
+    height: 100%;
+    border-radius: 5px;
+}
+.two-column {
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    width: 48%;
+}
